@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "405106089054",
+    "project_id": "review-food-app-c0757",
+    "storage_bucket": "review-food-app-c0757.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405106089054:android:2415d97192a94a703268cf",
+        "android_client_info": {
+          "package_name": "com.awesome.food_review"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG_RrTte7N1H3er3ul86FvyJEUH8iQ7qc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
