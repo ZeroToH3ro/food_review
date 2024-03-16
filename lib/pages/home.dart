@@ -7,6 +7,7 @@ import 'package:food_review/widget/responsive_layout_builder.dart';
 class Home extends StatefulWidget {
   const Home ({super.key});
 
+  static const String route = '/home';
   @override
   State<Home> createState() => _HomeState();
 }

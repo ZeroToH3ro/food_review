@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 class ReviewMapLocations extends StatefulWidget {
   const ReviewMapLocations({super.key});
 
+  static const String route = '/review_map_locations';
+
   @override
   State<ReviewMapLocations> createState() => _ReviewMapLocationsState();
 }
