@@ -32,7 +32,7 @@ class _ReviewGridPhotosState extends State<ReviewGridPhotos> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Keiko Gallery'),
+        title: const Text('Gallery'),
         backgroundColor: Theme.of(context).colorScheme.surface.withOpacity(0.4),
       ),
       extendBodyBehindAppBar: true,

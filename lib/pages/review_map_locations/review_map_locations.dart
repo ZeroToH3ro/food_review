@@ -29,7 +29,7 @@ class _ReviewMapLocationsState extends State<ReviewMapLocations> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Keiko Reviews Locations'),
+        title: const Text('Reviews Locations'),
         backgroundColor: Theme.of(context).colorScheme.surface.withOpacity(0.4),
       ),
       extendBodyBehindAppBar: true,

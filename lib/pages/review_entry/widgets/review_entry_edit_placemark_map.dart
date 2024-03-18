@@ -90,7 +90,7 @@ class ReviewEntryEditPlacemarkMap extends StatelessWidget {
                         urlTemplate:
                             'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
                         subdomains: const ['map', 'b', 'c'],
-                        userAgentPackageName: 'com.example.app',
+                        userAgentPackageName: 'com.awesome.app',
                         tileProvider: NetworkTileProvider(),
                       ),
                       MarkerLayer(

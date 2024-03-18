@@ -187,7 +187,7 @@ class ReviewEntryView extends StatelessWidget {
                             urlTemplate:
                             'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
                             subdomains: const ['map', 'b', 'c'],
-                            userAgentPackageName: 'com.example.com',
+                            userAgentPackageName: 'com.awesome.com',
                             tileProvider: NetworkTileProvider(),
                           ),
                           MarkerLayer(
