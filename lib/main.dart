@@ -2,7 +2,6 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:food_review/firebase_options.dart';
 import 'package:food_review/pages/authentication/user_login.dart';
-import 'package:food_review/pages/authentication/user_register.dart';
 import 'package:food_review/pages/home.dart';
 import 'package:food_review/services/authentication_service.dart';
 import 'package:food_review/state/authentication_state.dart';
@@ -14,9 +13,7 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
-
   );
-
   runApp(const MyApp());
 }
 
